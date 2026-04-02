@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MadeByHumans — Technology Ventures</title>
+  <meta name="description"
+    content="MadeByHumans is a technology venture studio powering IT innovation, autonomous farming drones, and smart dining experiences." />
+  <meta property="og:title" content="MadeByHumans — Technology Ventures" />
+  <meta property="og:description" content="We build the future — one bold idea at a time." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700;900&family=Inter:wght@300;400;500;600&family=Outfit:wght@200;300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Fixed Side Bar -->
+  <div class="sidebar" id="sidebar">
+    <div class="sidebar-text">MadeByHumans: The Technology Venture Studio</div>
+    <div class="sidebar-logo">
+      <img src="logo2.jpeg" alt="MBH Logo" class="sidebar-logo-img">
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <img src="logo2.jpeg" alt="MBH Logo" class="nav-logo-img">
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active" id="nav-home">HOME</a></li>
+        <li><a href="#services" class="nav-link" id="nav-services">SERVICES</a></li>
+        <li><a href="#mission" class="nav-link" id="nav-mission">MISSION</a></li>
+        <li><a href="#crew" class="nav-link" id="nav-crew">CREW</a></li>
+        <li><a href="#portfolio" class="nav-link" id="nav-portfolio">PORTFOLIO</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta" id="nav-contact-btn">
+        <span>CONTACT US</span>
+        <span class="cta-arrow">→</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#home" class="mobile-link">HOME</a></li>
+      <li><a href="#services" class="mobile-link">SERVICES</a></li>
+      <li><a href="#mission" class="mobile-link">MISSION</a></li>
+      <li><a href="#crew" class="mobile-link">CREW</a></li>
+      <li><a href="#portfolio" class="mobile-link">PORTFOLIO</a></li>
+      <li><a href="#contact" class="mobile-link">CONTACT US</a></li>
+    </ul>
+  </div>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <canvas id="starfield" class="starfield-canvas"></canvas>
+    <div class="hero-glow hero-glow-left"></div>
+    <div class="hero-glow hero-glow-right"></div>
+
+    <div class="hero-content">
+      <div class="hero-spark" id="heroSpark">
+        <svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+          <path d="M40 5 L43 37 L75 40 L43 43 L40 75 L37 43 L5 40 L37 37 Z" fill="#FF5C00" />
+        </svg>
+      </div>
+      <div class="hero-tagline">FORGED WITH THOUGHTS, ACTING WITH TECH SWORDS</div>
+      <h1 class="hero-title" id="heroTitle">
+        <span class="hero-title-line">MADE BY</span><span class="hero-title-accent">HUMANS</span>
+      </h1>
+      <p class="hero-subtitle">Technology Ventures for a Better Tomorrow</p>
+      <a href="#contact" class="hero-cta" id="heroCta">
+        <span>PARTNER WITH US</span>
+        <span class="cta-arrow-circle">→</span>
+      </a>
+    </div>
+
+    <div class="scroll-indicator" id="scrollIndicator">
+      <div class="scroll-line"></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  <!-- ===== CURVE DIVIDER ===== -->
+  <div class="curve-divider curve-1">
+    <svg viewBox="0 0 1440 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,200 Q360,0 720,100 Q1080,200 1440,0 L1440,200Z" fill="#FF5C00" opacity="0.12" />
+      <path d="M0,200 Q360,20 720,120 Q1080,220 1440,20 L1440,200Z" fill="#FF5C00" opacity="0.06" />
+    </svg>
+  </div>
+
+  <!-- ===== IT SERVICES SECTION ===== -->
+  <section class="section services-section" id="services">
+    <div class="section-inner">
+      <div class="section-label">WHAT WE DO</div>
+      <h2 class="section-title">IT Solutions<br /><span class="accent">for Tomorrow</span></h2>
+      <div class="section-two-col">
+        <div class="col-block">
+          <div class="col-icon">⚡</div>
+          <h3 class="col-title">INNOVATE</h3>
+          <p class="col-desc">We architect and deploy cutting-edge digital infrastructure and
+            enterprise software that powers modern businesses from the ground up.</p>
+        </div>
+        <div class="col-block">
+          <div class="col-icon">🔗</div>
+          <h3 class="col-title">INTEGRATE</h3>
+          <p class="col-desc">Our preferred technology partners provide end-to-end support across, AI/ML
+            integrations, DevOps pipelines, and scalable cloud ecosystems.</p>
+        </div>
+      </div>
+      <div class="section-image-card">
+        <div class="enterprise-card">
+          <div class="enterprise-tag">ENTERPRISE SOLUTIONS · SYSTEMS ARCHITECTURE</div>
+          <p class="enterprise-desc">
+            We build systems.</br>
+            With code, intelligence, and intent.<br>
+            Scalable. Secure. Human.
+          </p>
+        </div>
+      </div>
+      <a href="#portfolio" class="section-cta" id="services-cta">
+        <span>EXPLORE SERVICES</span>
+        <span class="cta-arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== PLANET CURVE DIVIDER ===== -->
+  <div class="planet-curve">
+    <div class="planet-arc"></div>
+  </div>
+
+  <!-- ===== MISSION SECTION ===== -->
+  <section class="section mission-section" id="mission">
+    <div class="section-inner">
+      <div class="section-label">OUR PURPOSE</div>
+      <h2 class="section-title">Building Futures<br /><span class="accent">That Matter</span></h2>
+      <div class="section-two-col">
+        <div class="col-block">
+          <div class="col-icon">🌱</div>
+          <h3 class="col-title">TODAY</h3>
+          <p class="col-desc">We seek and support the boldest, most inventive teams tackling real-world problems — from
+            sustainable agriculture to reimagined dining experiences.</p>
+        </div>
+        <div class="col-block">
+          <div class="col-icon">🚀</div>
+          <h3 class="col-title">TOMORROW</h3>
+          <p class="col-desc">To build world-changing ventures at the frontiers of technology, food systems, and human
+            experience — for a planet that thrives.</p>
+        </div>
+      </div>
+      <a href="#contact" class="section-cta" id="mission-cta">
+        <span>OUR MISSION</span>
+        <span class="cta-arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== VENTURES / PORTFOLIO SECTION ===== -->
+  <section class="section portfolio-section" id="portfolio">
+    <div class="section-inner portfolio-inner">
+      <div class="section-label">WHAT WE'VE BUILT</div>
+      <h2 class="section-title portfolio-title">OUR VENTURES</h2>
+
+      <!-- IT Services Category -->
+      <div class="portfolio-category">
+        <div class="category-label">IT SERVICES</div>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card" id="pc-1">
+          <div class="portfolio-card-img-wrap">
+            <div class="enterprise-card">
+              <div class="enterprise-tag">INTELLIGENT SOFTWARE SYSTEMS</div>
+              <p class="enterprise-desc">Building scalable, intelligent applications that solve real-world problems.</p>
+            </div>
+          </div>
+          <div class="portfolio-card-info">
+            <h4>Enterprise Level Softwares </h4>
+            <p>Scalable Software solutions for modern enterprises</p>
+          </div>
+        </div>
+        <div class="portfolio-card" id="pc-2">
+          <div class="portfolio-card-img-wrap">
+            <div class="enterprise-card">
+              <div class="enterprise-tag">ARTIFICIAL INTELLIGENCE SYSTEMS</div>
+              <p class="enterprise-desc">We build intelligence into systems.<br>
+                Not to replace humans<br>
+                but to amplify them.</p>
+            </div>
+          </div>
+          <div class="portfolio-card-info">
+            <h4>ARTIFICIAL INTELLIGENCE</h4>
+            <p>Intelligent systems designed to learn, adapt, and scale.</p>
+          </div>
+        </div>
+        <div class="portfolio-card" id="pc-3">
+          <div class="portfolio-card-img-wrap">
+            <div class="enterprise-card">
+              <div class="enterprise-tag">MACHINE LEARNING</div>
+              <p class="enterprise-desc">Architecting predictive intelligence to automate high-stakes decision cycles.
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-card-info">
+            <h4>Machine Learning Platforms</h4>
+            <p>Custom AI models that drive real business outcomes</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Farming Drones Category -->
+      <div class="portfolio-category">
+        <div class="category-label">FARMING DRONES</div>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card" id="pc-4">
+          <div class="portfolio-card-img-wrap">
+            <div class="enterprise-card">
+              <div class="enterprise-tag">AGRI-TECH INTEL</div>
+              <p class="enterprise-desc">Currently under development—designed, tested, and evolving with real-world use.</p>
+            </div>
+          </div>
+          <div class="portfolio-card-info">
+            <h4>Precision Crop Monitoring</h4>
+            <p>AI-driven aerial scouts that maximize yield and minimize waste</p>
+          </div>
+        </div>
+        <div class="portfolio-card" id="pc-5">
+          <div class="portfolio-card-img-wrap">
+            <div class="enterprise-card">
+              <div class="enterprise-tag">FOLDABLE SYSTEMS </div>
+              <p class="enterprise-desc">Compact, portable drone design for easy transport and rapid deployment across farms.</p>
+            </div>
+          </div>
+          <div class="portfolio-card-info">
+            <h4>Foldable Drones</h4>
+            <p>Traditional farming drones are powerful—but difficult to transport, deploy, and manage in real field conditions.
+We are solving this through foldable, field-friendly designs.</p>
+          </div>
+        </div>
+        <div class="portfolio-card" id="pc-6">
+          <div class="portfolio-card-img-wrap">
+            <div class="enterprise-card">
+              <div class="enterprise-tag">AUTONOMOUS SPRAYING</div>
+              <p class="enterprise-desc">Targeted deployment of crop protectants with millimetric precision.</p>
+            </div>
+          </div>
+          <div class="portfolio-card-info">
+            <h4>Autonomous Crop Spraying</h4>
+            <p>Targeted pesticide deployment, protecting ecosystems</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Smart Dining Category -->
+      <div class="portfolio-category">
+        <div class="category-label">SMART DINING</div>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card" id="pc-7">
+          <div class="portfolio-card-img-wrap">
+            <div class="enterprise-card">
+              <div class="enterprise-tag">INTELLIGENT DINING</div>
+              <p class="enterprise-desc">Bridging the gap between Customers & Orderding System of the Restaurants</p>
+            </div>
+          </div>
+          <div class="portfolio-card-info">
+            <h4>The Intelligent Dining Experience</h4>
+            <p>AI captains will be there to take your orders.</p>
+          </div>
+        </div>
+        <div class="portfolio-card" id="pc-8">
+          <div class="portfolio-card-img-wrap">
+            <div class="enterprise-card">
+              <div class="enterprise-tag">AUTONOMOUS ROBOTICS</div>
+              <p class="enterprise-desc">Redefining human-facing service with collision-aware mobility solutions.</p>
+            </div>
+          </div>
+          <div class="portfolio-card-info">
+            <h4>Autonomous Service Robots</h4>
+            <p>Zero wait times, zero errors, seamless service delivery</p>
+          </div>
+        </div>
+        <div class="portfolio-card" id="pc-9">
+          <div class="portfolio-card-img-wrap">
+            <div class="enterprise-card">
+              <div class="enterprise-tag">ADVANCE ANALYSIS</div>
+              <p class="enterprise-desc">Restaurant would have an advance analysis</p>
+            </div>
+          </div>
+          <div class="portfolio-card-info">
+            <h4>Immersive Digital Menus</h4>
+            <p>AR-powered Data Analysis</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CREW SECTION ===== -->
+  <section class="section crew-section" id="crew">
+    <div class="section-inner">
+      <div class="section-label">THE MINDS BEHIND IT</div>
+      <h2 class="section-title">MADE BY HUMANS</h2>
+      <div class="crew-definition">
+        <div class="crew-def-item">
+          <span class="crew-def-icon">●</span>
+          <p>A team where there is not only one foudner, whole team is the founder.</p>
+        </div>
+        <div class="crew-def-item">
+          <span class="crew-def-icon">●</span>
+          <p>Engineers, designers, and visionaries building real solutions for real people</p>
+        </div>
+        <p class="crew-tagline">Any revolution worth starting takes both bold ideas and grounded execution.</p>
+      </div>
+      <div class="crew-grid">
+        <div class="crew-card" id="cc-1">
+          <div class="crew-avatar" style="background: linear-gradient(135deg, #FF5C00, #FF8C00);">AS</div>
+          <h4 class="crew-name">Aryan S.</h4>
+          <p class="crew-role">PRIME ARCHITECT</p>
+          <p class="crew-bio">Visionary technologist driving the core architecture of MadeByHumans.</p>
+        </div>
+        <div class="crew-card" id="cc-2">
+          <div class="crew-avatar" style="background: linear-gradient(135deg, #FF5C00, #c94a00);">MR</div>
+          <h4 class="crew-name">Meet R.</h4>
+          <p class="crew-role">BACKEND BUILDER</p>
+          <p class="crew-bio">From Backend APis to Devops.</p>
+        </div>
+        <div class="crew-card" id="cc-3">
+          <div class="crew-avatar" style="background: linear-gradient(135deg, #FF5C00, #e05000);">PR</div>
+          <h4 class="crew-name">Preet R.</h4>
+          <p class="crew-role">THE INTELLIGENCE FORGER</p>
+          <p class="crew-bio">Reimagining the restaurant experience with AI.</p>
+        </div>
+        <div class="crew-card" id="cc-4">
+          <div class="crew-avatar" style="background: linear-gradient(135deg, #FF5C00, #d44500);">HZ</div>
+          <h4 class="crew-name">HARPAL Z.</h4>
+          <p class="crew-role">THE WATCHER</p>
+          <p class="crew-bio">Tester of our all enterprise level products.</p>
+        </div>
+         <div class="crew-card" id="cc-4">
+          <div class="crew-avatar" style="background: linear-gradient(135deg, #FF5C00, #d44500);">HZ</div>
+          <h4 class="crew-name">DHRUV U.</h4>
+          <p class="crew-role">THE INTELLIGENCE FORGER</p>
+          <p class="crew-bio">Reimagining the restaurant experience with AI</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="section contact-section" id="contact">
+    <div class="moon-rise"></div>
+    <div class="section-inner contact-inner">
+      <div class="section-label">GET IN TOUCH</div>
+      <h2 class="section-title contact-title">Let's Build<br /><span class="accent">Something Epic</span></h2>
+      <p class="contact-subtitle">Whether you're a startup, an enterprise, or a visionary with an idea  we'd love to
+        hear from you.</p>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="contactName">Your Name</label>
+            <input type="text" id="contactName" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">Email Address</label>
+            <input type="email" id="contactEmail" name="email" placeholder="john@example.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="contactInterest">Area of Interest</label>
+          <select id="contactInterest" name="interest">
+            <option value="">Select a domain...</option>
+            <option value="it">IT Services & Cloud Solutions</option>
+            <option value="drone">Farming Drones & Agri-Tech</option>
+            <option value="dining">Smart Dining & Restaurant Tech</option>
+            <option value="other">Other / General Inquiry</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="contactMessage">Your Message</label>
+          <textarea id="contactMessage" name="message" placeholder="Tell us about your vision..." rows="5"
+            required></textarea>
+        </div>
+        <button type="submit" class="form-submit" id="formSubmitBtn">
+          <span>SEND MESSAGE</span>
+          <span class="cta-arrow">→</span>
+        </button>
+        <div class="form-success" id="formSuccess">
+          ✓ Message sent! We'll be in touch soon.
+        </div>
+      </form>
+      <div class="contact-email-display">
+        <a href="mailto:hello@madebyhumans.co" id="contact-email-link">hello@madebyhumans.co</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="footer-moon"></div>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="logo3-removebg-preview.png" alt="MBH Logo" class="footer-logo-img">
+      </div>
+      <p class="footer-tagline">MadeByHumans © 2025 — All Rights Reserved</p>
+      <div class="footer-links">
+        <a href="#mission" class="footer-link">Mission</a>
+        <a href="#services" class="footer-link">Services</a>
+        <a href="#portfolio" class="footer-link">Portfolio</a>
+        <a href="#contact" class="footer-link">Contact</a>
+      </div>
+      <p class="footer-small">Built with ambition. Powered by humans.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
